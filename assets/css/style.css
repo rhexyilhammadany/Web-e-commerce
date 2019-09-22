@@ -1,0 +1,181 @@
+/*html*/
+html{
+  display: block;
+  margin-top: 90px;
+}
+a{
+  text-decoration: none;
+}
+hr{
+  border-top: 2px solid #dddddd;
+}
+h3{
+	color: #333;
+	line-height: 1px; 
+}
+/*navbar-fixed*/
+.navbar-fixed{
+  border-bottom: 1px solid #dddddd;
+  position: fixed;
+  height: 70px;
+  background: white;
+  width: 100%;
+  box-shadow: 0.1px 0 10px #333;
+  top:0;
+  left: 0;
+  z-index: 99;
+  border-radius: 0;
+  padding: 2px 0;
+}
+.navbar-fixed .brand-text{
+  color: tomato;
+  position: relative;
+  margin-top: -45px;
+  margin-left: 65px;
+}
+.navbar-fixed ul li{
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar-fixed .navbar-nav li a{
+  color: #333;
+  padding-bottom: 30px;
+}
+.navbar-fixed .navbar-nav li:hover a:hover{
+  color:#333;
+}
+.navbar-brand img {
+  margin-top: -20px;
+  width: 60px;
+}
+.promo1:hover img{
+	z-index: 9;
+	filter: sepia(10%);
+	-webkit-filter: sepia(10%);
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+.glyphicon1{
+  color: #337ab7;
+}
+
+.promo2{
+	font-size: 12px;
+	margin-left: 20px;
+	margin-top: 7.5px;
+	height: 20px;
+	border-radius: 51000px;
+	background-color: white;
+	border:1px solid #dddddd;
+}
+.width{
+	left: 15px;
+}
+.khas{
+	margin-top: 20px;
+}
+.imgkhas{
+	position: relative;
+	width: 110px;
+	height: 110px;
+	margin:2px;
+	float: left;
+}
+
+.clear{
+	clear: both;
+}
+
+.alert-atas{
+	background-color: lightblue;
+}
+
+.menu11 img{
+	height: 200px;
+}
+
+/*ARah*/
+.kiri{
+	margin: 10px auto;
+	margin-top: 75px;
+}
+.atas{
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	text-decoration: none;
+	width: 23px;
+	height: 27px;
+	font-size: 30px;
+	border-radius: 200px;
+}
+.info{
+	line-height: 100px;
+}
+.jasa{
+	width: 250px;
+	height: 250px;
+	position: relative;
+	margin-left: 70px;
+}
+.jasa1{
+	padding-bottom: 10px;
+}
+.back{
+	border-radius: 10px;
+}
+.labkhas{
+	margin-top: 50px;
+	line-height: 1px;
+}
+.khr{
+	line-height: 1px;
+	float: left;
+	width: 200px;
+}
+.khas3{
+	border: 1px solid #dddddd;
+}
+.bantuan{
+	font-size: 11px;
+	margin-left: -15px;
+	line-height: 20px;
+}
+.download{
+	margin-top: -55px;
+}
+.download1 img{
+	margin-top: -55px;
+	width: 100px;
+}
+.paketk{
+	padding-top: 500px;
+}
+.listk{
+	float: right;
+}
+.alert-info{
+	margin: 10px;
+}
+.total{
+	margin-right: 20px;
+}
+.buys{
+	padding-bottom: 100px;
+}
+/*footer*/
+footer{
+  color: #333;
+  background-color: white;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  padding-top: 40px;
+  margin-top: 100px;
+  border-top: 1px solid #dddddd;
+  box-shadow: 0.1px 0 10px #333;
+}
+.sosial img{
+  width: 40px;
+  margin-top: -65px;
+}
